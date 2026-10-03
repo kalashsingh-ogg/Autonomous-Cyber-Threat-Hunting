@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+
+# Large training datasets
+Data/Processed/train_processed.csv
+Data/Processed/validation_processed.csv
+Data/Processed/test_processed.csv
+
+# Training checkpoints
+Data/Processed/dqn_checkpoints/
+# Raw datasets
+Data/Raw/
