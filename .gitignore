@@ -17,3 +17,27 @@ Data/Processed/test_processed.csv
 Data/Processed/dqn_checkpoints/
 # Raw datasets
 Data/Raw/
+
+# Experimental classifier models and analysis outputs
+Data/Processed/threat_classifier_tree_experiment.pkl
+Data/Processed/threat_classifier_tree_experiment_v2.pkl
+Data/Processed/threat_classifier_balanced.pkl
+Data/Processed/threat_classifier_balanced_weighted.pkl
+Data/Processed/threat_classifier.pkl
+Data/Processed/class_weights_balanced.pkl
+Data/Processed/confusion_matrix_original.csv
+Data/Processed/confusion_matrix_tree_v2.csv
+Data/Processed/feature_separation_report.csv
+Data/Processed/train_balanced_50k.csv
+
+# Experimental training and analysis scripts
+Training/train_balanced_classifier.py
+Training/train_balanced_weighted_classifier.py
+Training/train_tree_experiment.py
+Training/train_tree_experiment_v2.py
+Evaluation/analyze_confusion.py
+Evaluation/analyze_feature_separation.py
+Evaluation/compare_classifiers.py
+Evaluation/compare_tree_classifier.py
+Evaluation/compare_tree_classifier_v2.py
+create_balanced_dataset.py

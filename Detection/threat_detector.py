@@ -7,7 +7,7 @@ class ThreatDetector:
 
     def __init__(
         self,
-        model_path="./Data/Processed/threat_classifier_weighted.pkl",
+        model_path="./Data/Processed/threat_classifier_tree.pkl",
         encoder_path="./Data/Processed/label_encoder.pkl",
     ):
         self.model = joblib.load(model_path)
